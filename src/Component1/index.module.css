@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .productItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .productTitle {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
