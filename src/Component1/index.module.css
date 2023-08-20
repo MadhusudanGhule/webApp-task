@@ -17,6 +17,8 @@
   .productImage {
     max-width: 100%;
     height: auto;
+    height: 200px;
+    overflow: hidden;
   }
   
   .productTitle {
@@ -24,5 +26,22 @@
     margin-top: 10px;
     font-size: 16px;
     color: #333;
+  }
+  .Pagination{
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .Pagination >span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  .selectedPage{
+    background-color: gray;
+  }
+  .selectedPageDisebal{
+    opacity: 0;
   }
   
