@@ -1,6 +1,7 @@
 import './App.css';
 import Index1 from './Component1/Index1';
 import Index from './Component2/Index';
+import Password from './PasswordGanretor/Password';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     </div>
     <Index1/>
     <Index/>
+    <Password/>
     </>
   );
 }
